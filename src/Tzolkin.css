@@ -1,0 +1,23 @@
+.event {
+    border: none;
+    border-top: solid;
+    border-left: solid;
+
+    position: absolute;
+
+    width: inherit;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.day {
+    height: 100%;
+    width: calc(100% / 7);
+    display: inline-block;
+}
+
+.day-header {
+    text-align: center;
+}
