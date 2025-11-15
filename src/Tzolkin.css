@@ -3,21 +3,24 @@
     border-top: solid;
     border-left: solid;
 
-    position: absolute;
+    position: sticky;
+}
 
-    width: inherit;
+.events {
+    height: 100vh;
+    width: calc(100vw / 7);
 }
 
 .title {
     font-weight: bold;
 }
 
-.day {
-    height: 100%;
-    width: calc(100% / 7);
-    display: inline-block;
-}
-
 .day-header {
     text-align: center;
+    font-weight: bold;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
 }
